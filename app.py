@@ -269,7 +269,7 @@ def process_documents(pdf_docs):
 def main():
     # Two-column layout: Sidebar and Main content
     with st.sidebar:
-        st.markdown('<div class="main-header">DeskMate AI</div>', unsafe_allow_html=True)
+        st.markdown('<div class="main-header">UniAssist AI</div>', unsafe_allow_html=True)
         st.markdown('<div class="sub-header">Your PDF Knowledge Assistant</div>', unsafe_allow_html=True)
 
         st.markdown("### 📚 Document Library")
@@ -295,11 +295,11 @@ def main():
 
         st.markdown("---")
         st.markdown(
-            '<p class="help-text">DeskMate AI helps you extract insights from your PDF documents using advanced AI technology.</p>',
+            '<p class="help-text">UniAssist AI helps you extract insights from your PDF documents using advanced AI technology.</p>',
             unsafe_allow_html=True)
 
     # Main content area
-    st.markdown('<div class="main-header">Ask DeskMate</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">Ask UniAssist</div>', unsafe_allow_html=True)
 
     # Display chat history
     for message in st.session_state.chat_history:
